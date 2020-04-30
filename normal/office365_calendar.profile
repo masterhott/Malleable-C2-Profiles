@@ -21,7 +21,7 @@ http-config {
 #    header "Cache-Control" "max-age=2";
 #    header "Server" "nginx";
     #set "true" if teamserver is behind redirector
-    set trust_x_forwarded_for "false";
+    set trust_x_forwarded_for "true";
 }
 
 http-get {
